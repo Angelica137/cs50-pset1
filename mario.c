@@ -12,4 +12,19 @@ int main()
     }
 
     printf("Height: %d\n", height);
+    
+    // Declaring character pointers
+    char *ptr1 = "#";
+    char *ptr2 = " ";
+    
+    // Declaring array of length hight
+    char* n[height];
+	
+	// Assigning values to array indexe
+	int i = 0;
+	for (i = 0; i < 4; i++)
+	{
+	n[i] = ptr1;
+		printf("\n [%s]\n", n[i]);
+	}
 }
