@@ -7,3 +7,7 @@ These programs require the cs50 library to run.
 ### Hello
 
 A simple greeting with user input
+
+### Mario
+
+An algorithm to create pyramids using user input
