@@ -24,7 +24,8 @@ int main()
 	int i = 0;
 	for (i = 0; i < 4; i++)
 	{
-	n[i] = ptr1;
-		printf("\n [%s]\n", n[i]);
+    	n[i] = ptr1;
 	}
-}
+	
+	printf("Hello");
+	return 0;
