@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <cs50.h>
 
 /*mario pyramids are built using user inpput*/
@@ -17,15 +18,26 @@ int main()
     char *ptr1 = "#";
     char *ptr2 = " ";
     
+    // Declaring array for gap
+    char* gap[2] = {" ", " ",};
+    
     // Declaring array of length hight
     char* n[height];
 	
 	// Assigning values to array indexe
 	int i = 0;
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < height; i++)
 	{
     	n[i] = ptr1;
 	}
-	
-	printf("Hello");
-	return 0;
+
+    char *strcat(char *dest, const char *src);
+    
+    char str[1024] = "Hello World";
+    char tmp = '\0';
+    size_t len = strlen(str);
+    printf("%s\n", n[i]);
+    snprintf(str + len, sizeof str - len, "%c", tmp);
+    printf("%s\n", str);
+
+}
