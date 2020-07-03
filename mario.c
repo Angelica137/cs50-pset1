@@ -93,5 +93,22 @@ int get_valid_height(void)
 }
 
 
+// 3rd attempt
 
-int main() /*main is a function, int is its returnt type. I am declaring a function
+/*main is a function, int is its returnt type. I am declaring a function, you might need to return 0*/
+int main() 
+{
+	/* declare your vars8 */
+	int height,row,space,symbol;
+	/*get user input*/
+    do
+    {
+       height = get_int("Height: ");
+    }
+    while(height < 1 || height > 8);
+
+
+		return 0;
+
+
+}
