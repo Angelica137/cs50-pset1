@@ -75,12 +75,12 @@ int main()
 			 }
 			 else
 			 {
-				strcpy(result, "Invalid");
+				strcpy(result, "INVALID");
 			 }
 		}
 		else 
 		{
-			strcpy(result, "Invalid");
+			strcpy(result, "INVALID");
 		}
 
 		printf("%s\n", result);
