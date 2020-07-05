@@ -28,3 +28,7 @@ MasterCard
 
 Visa
 13 or 16, start with 4
+
+CC numbers to test
+
+https://developer.paypal.com/docs/payflow/payflow-pro/payflow-pro-testing/#credit-card-numbers-for-testing
