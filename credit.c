@@ -4,16 +4,12 @@
 
 int main()
 {
-	  //declare your var
-	  long userInput;
-	
 	  //get user input
     userInput = get_long("Number: ");
     
 		// checksum function
 		long number = userInput;
-		int sum = 0;
-		int count = 0;
+		int sum, count = 0;
 		long divisor = 10;
 		char result[11];
     
