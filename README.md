@@ -32,3 +32,7 @@ Visa
 CC numbers to test
 
 https://developer.paypal.com/docs/payflow/payflow-pro/payflow-pro-testing/#credit-card-numbers-for-testing
+
+This includes MasterCard numbers starting at 2 but this was not on the requirements.
+
+All test pass
